@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>JJA</title>
     <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -12,7 +13,7 @@
 
     <!-- Navbar -->
     <nav
-      class="flex justify-around py-4 bg-gray-300/20 backdrop-blur-md shadow-md w-full fixed top-0 left-0 right-0 z-10"
+      class="flex justify-around py-4 bg-gray-600/20 backdrop-blur-md shadow-md w-full fixed top-0 left-0 right-0 z-10"
     >
       <!-- Logo Container -->
       <div class="flex items-center">
@@ -27,6 +28,7 @@
           </h3>
         </a>
       </div>
+
 
       <!-- Links Section -->
       <div class="items-center hidden space-x-8 lg:flex">
@@ -43,6 +45,7 @@
           About Me
         </a>
       </div>
+
 
       <!-- Icon Menu Section -->
       <div class="flex items-center space-x-5">
@@ -66,7 +69,6 @@
           </svg>
           Register
         </a>
-
         <!-- Login -->
         <a
           class="flex text-gray-600 cursor-pointer transition-colors duration-300 font-semibold text-yellow-300"
@@ -93,9 +95,8 @@
 
 
 
-
     <!-- main -->
-    <div class="relative isolate overflow-hidden bg-stone-900">
+    <div class="relative isolate overflow-hidden bg-stone-950">
       <svg
         class="absolute inset-0 -z-10 h-full w-full [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
         aria-hidden="true"
@@ -159,15 +160,45 @@
         <div
           class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8"
         >
-          <h1
-            class="mt-10 text-4xl font-bold tracking-tight text-yellow-300 sm:text-6xl"
-          >
-            Deploy to the cloud with confidence
-          </h1>
+
+
+
+
+          <!-- HEADING ANIMATION -->
+          <div class="justify-center font-bold text-white">
+            <div class="space-y-12">
+              <div
+                class="mt-16 text-4xl font-bold tracking-tight text-yellow-300 sm:text-6xl pr-40"
+              >
+                <div
+                  class="relative inline-grid grid-cols-1 grid-rows-1 gap-12 overflow-hidden"
+                >
+                  <span class="animate-word col-span-full row-span-full"
+                    >JERIC JOHN ALIGATO</span
+                  >
+                  <span
+                    class="animate-word-delay-1 col-span-full row-span-full text-white"
+                    >WEB 2 PROJECT</span
+                  >
+                  <span class="animate-word-delay-2 col-span-full row-span-full"
+                    >JERIC JOHN ALIGATO</span
+                  >
+                  <span
+                    class="animate-word-delay-3 col-span-full row-span-full text-white"
+                    >WEB 2 PROJECT</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
           <p class="mt-6 text-lg leading-8 text-gray-300">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+            This is my Midterm project in Web 2. Utilizing CSS Frameworks such
+            as Tailwind. Making a Website with a minimalist approach, making it
+            less straining to the eyes.
           </p>
         </div>
         <div
@@ -190,45 +221,46 @@
 
     <!-- ABOUT ME -->
     <div id="about">
-    <div class="py-16 bg-yellow-300">
-      <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-        <div
-          class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12"
-        >
-          <div class="md:5/12 lg:w-5/12">
-            <img
-              src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
-              alt="image"
-              loading="lazy"
-              width=""
-              height=""
-            />
-          </div>
-          <div class="md:7/12 lg:w-6/12">
-            <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">
-              Nuxt development is carried out by passionate developers
-            </h2>
-            <p class="mt-6 text-gray-600">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-              omnis voluptatem accusantium nemo perspiciatis delectus atque
-              autem! Voluptatum tenetur beatae unde aperiam, repellat expedita
-              consequatur! Officiis id consequatur atque doloremque!
-            </p>
-            <p class="mt-4 text-gray-600">
-              Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
-              expedita at? Asperiores nemo possimus nesciunt dicta veniam
-              aspernatur quam mollitia.
-            </p>
+      <div class="py-16 bg-yellow-300">
+        <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+          <div
+            class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12"
+          >
+            <div class="md:5/12 lg:w-5/12">
+              <img
+                src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
+                alt="image"
+                loading="lazy"
+                width=""
+                height=""
+              />
+            </div>
+            <div class="md:7/12 lg:w-6/12">
+              <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">
+                About me
+              </h2>
+              <p class="mt-6 text-gray-600">
+                Know more information about me, what I do, and my current skills
+                mostly in terms of programming and technology
+              </p>
+              <button class="mt-6">
+                <a
+                  class="p-2 pr-7 pl-7 text-white bg-stone-900 rounded-lg"
+                  href="about.html"
+                  >Show more</a
+                >
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-   </div>
+
 
 
 
     <!-- FOOTER -->
-    <div class=" bg-stone-950">
+    <div class="bg-stone-950">
       <div class="w-full draggable">
         <div class="container flex flex-col mx-auto">
           <div class="flex flex-col items-center w-full my-10">
@@ -242,11 +274,13 @@
                 <p class="text-stone-200 hover:text-yellow-300">
                   jericjohnaligato@gmail.com
                 </p>
-                <p class="text-stone-200 hover:text-yellow-300">+639485716036</p>
+                <p class="text-stone-200 hover:text-yellow-300">
+                  +639485716036
+                </p>
               </div>
               <div class="flex items-center gap-8">
                 <a
-                  href="javascript:void(0)"
+                  href="https://www.facebook.com/jericjohnnn/"
                   class="text-yellow-300 hover:text-grey-900"
                 >
                   <svg
@@ -282,7 +316,7 @@
                   </svg>
                 </a>
                 <a
-                  href="javascript:void(0)"
+                  href="https://twitter.com/Jericjohnnn"
                   class="text-yellow-300 hover:text-grey-900"
                 >
                   <svg
@@ -318,7 +352,7 @@
                   </svg>
                 </a>
                 <a
-                  href="javascript:void(0)"
+                  href="https://github.com/jericjohnnn"
                   class="text-yellow-300 hover:text-grey-900"
                 >
                   <svg
@@ -335,7 +369,7 @@
                   </svg>
                 </a>
                 <a
-                  href="javascript:void(0)"
+                  href="https://www.linkedin.com/in/jericjohnaligato/"
                   class="text-yellow-300 hover:text-grey-900"
                 >
                   <svg
@@ -352,7 +386,7 @@
                   </svg>
                 </a>
                 <a
-                  href="javascript:void(0)"
+                  href="https://www.instagram.com/jeric_jhnnn/"
                   class="text-yellow-300 hover:text-grey-900"
                 >
                   <svg
@@ -400,5 +434,7 @@
         </div>
       </div>
     </div>
+
+
   </body>
 </html>
