@@ -1,7 +1,9 @@
 ~ install node packages 
 ~ install tailwind
-~ replace
-1. 
-2.
-3.
-4.
+~ replace the installed files with the ff:
+
+1. package-lock.json
+2. package.json
+3. tailwind.config.js
+
+ENJOY!
